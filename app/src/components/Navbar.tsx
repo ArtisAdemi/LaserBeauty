@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
         </div>
         <div className="text-2xl font-bold text-[#9A7566] w-1/3 flex justify-center">Waxly</div>
         <div className="w-1/3 flex justify-end">
-          <a href="#" className="text-[#9A7566] font-bold hover:text-gray-900">
+          <a href="/contact" className="text-[#9A7566] font-bold hover:text-gray-900">
             Contact
           </a>
         </div>
