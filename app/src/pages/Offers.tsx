@@ -28,11 +28,11 @@ const Offers: React.FC = () => {
           <h1 className="text-5xl text-[#6a483c]">Ofertat</h1>
         </div>
       </div>
-      <div className="px-[16%] flex flex-col justify-center mt-24">
+      <div className="px-[8%] xl:px-[16%] flex flex-col justify-center mt-24">
         <h2 className="text-5xl text-[#6a483c] text-center">Waxing Price List</h2>
-        <p className="px-[20%] text-[#885D4D] text-center mt-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+        <p className="xl:px-[20%] text-[#885D4D] text-center mt-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
       </div>
-      <div className=" transform flex rounded-md w-[324px] mx-auto justify-center z-10 mt-5">
+      <div className="transform flex rounded-md w-[324px] mx-auto justify-center z-10 mt-5">
         <div className="">
           <button onClick={() => setSelectedTab("Legs")} className={`font-semibold py-4 px-6 rounded-md hover:text-[#ff7404] hover:duration-500 duration-500 ${selectedTab === "Cocktails" ? "bg-transparent text-[#6a483c]" : "text-[#6a483c]"}`}>
             Legs
@@ -66,7 +66,7 @@ const Offers: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="px-[16%] mb-10">
+      <div className="px-[8%] xl:px-[16%] mb-10">
         {selectedTab === "Legs" && <Legs />}
         {selectedTab === "Arms" && <Arms />}
         {selectedTab === "Body" && <Body />}
