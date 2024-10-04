@@ -2,8 +2,8 @@ import React from "react";
 
 const Face: React.FC = () => {
   return (
-    <div className="flex justify-between gap-x-20">
-      <div className="w-1/2">
+    <div className="xl:flex justify-between gap-x-20">
+      <div className="xl:w-1/2">
         <div className="py-4 border-2 border-[#6a483c] border-t-0 border-l-0 border-r-0 ">
           <div className="flex justify-between">
             <h1 className="text-[#6a483c] font-semibold text-2xl">Half Face</h1>
@@ -23,7 +23,7 @@ const Face: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2">
+      <div className="xl:w-1/2">
         <div className="py-4 border-2 border-[#6a483c] border-t-0 border-l-0 border-r-0">
           <div className="flex justify-between">
             <h1 className="text-[#6a483c] font-semibold text-2xl">Half Face</h1>
