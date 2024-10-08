@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import removal from "../assets/removal.jpg";
-import location from "../assets/location.svg";
+
 import Swal from "sweetalert2";
 
 const Kontakt: React.FC = () => {
@@ -40,7 +40,9 @@ const Kontakt: React.FC = () => {
     return Object.values(newErrors).every((error) => error === "");
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
 
@@ -96,23 +98,24 @@ const Kontakt: React.FC = () => {
           className="w-full opacity-70 h-full object-cover"
         />
         <div className="absolute top-1/2 inset-x-0 text-center transform -translate-y-1/2">
-          <h1 className="text-5xl text-black">Contact Us</h1>{" "}
+          <h1 className="text-5xl text-[#9A7566]">Kontakti</h1>{" "}
         </div>
       </div>
 
       <div className="justify-center text-center my-12">
-        <h1 className="text-5xl text-[#9A7566] font-semibold">Get In Touch</h1>
+        <h1 className="text-5xl text-[#9A7566] font-semibold">
+          Kontakto me Ne
+        </h1>
         <p className="px-[24%] mt-6 text-[#9A7566]">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla sit
-          aspernatur perferendis nostrum iste non alias ea doloremque, ipsum,
-          quae nisi dolores sunt asperiores minus dicta quaerat quod at fugiat.
+          Na kontakto për të zbuluar më shumë rreth shërbimeve tona dhe për të
+          marrë një konsultë profesionale. Ne jemi këtu për të ndihmuar në çdo
+          hap të rrugës drejt bukurisë suaj ideale.
         </p>
         <div className="flex flex-row text-center justify-center space-x-40 mt-4 font-medium text-[#9A7566]">
           <div className="flex items-center space-x-2">
-            <img src={location} alt="Location Icon" className="w-4 h-4" />
-            <h1>Jl. Raya Seminyak 36, Badung, Bali</h1>
+            <p className="text-[#9A7566]">Rr. Vellezrit Xhakli</p>
           </div>
-          <h1>+383 23 2323 23 2</h1>
+          <p className="text-[#9A7566]">Tel: (+383) 48 375 704</p>
         </div>
       </div>
 
