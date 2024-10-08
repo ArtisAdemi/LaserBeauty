@@ -11,8 +11,6 @@ const port = 3001;
 app.use(cors());
 app.use(express.json());
 
-console.log("GMAIL_APP_PASSWORD:", process.env.GMAIL_APP_PASSWORD);
-
 const sendMail = async (req, res) => {
     const { name, email, phone, html } = req.body;
 
