@@ -187,6 +187,79 @@ const Home: React.FC = () => {
           />
         </div>
       </div>
+      <div className="flex flex-col items-center justify-center mt-32 mb-32">
+        {/* Section Title */}
+        <div className="text-center text-4xl md:text-5xl font-bold text-[#6a483c] mb-12">
+          <h1>Why Choose Us</h1>
+        </div>
+
+        {/* Row of Features */}
+        <div className="flex justify-center flex-wrap gap-12 w-[85%] mx-auto">
+          {/* Feature 1: Professional Team */}
+          <div className="flex flex-col items-center">
+            <img
+              src={heroimage}
+              alt="Professional Team"
+              className="w-[250px] h-[250px] rounded-full mb-4"
+            />
+            <h2 className="text-2xl font-bold text-[#6a483c]">
+              Professional Team
+            </h2>
+            <p className="text-md text-[#6a483c] text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+
+          {/* Feature 2: Hygienic Place */}
+          <div className="flex flex-col items-center">
+            <img
+              src={heroimage}
+              alt="Hygienic Place"
+              className="w-[250px] h-[250px] rounded-full mb-4"
+            />
+            <h2 className="text-2xl font-bold text-[#6a483c]">
+              Hygienic Place
+            </h2>
+            <p className="text-md text-[#6a483c] text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+
+          {/* Feature 3: Natural Ingredient */}
+          <div className="flex flex-col items-center">
+            <img
+              src={heroimage}
+              alt="Natural Ingredient"
+              className="w-[250px] h-[250px] rounded-full mb-4"
+            />
+            <h2 className="text-2xl font-bold text-[#6a483c]">
+              Natural Ingredient
+            </h2>
+            <p className="text-md text-[#6a483c] text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+
+          {/* Feature 4: Painless Waxing */}
+          <div className="flex flex-col items-center">
+            <img
+              src={heroimage}
+              alt="Painless Waxing"
+              className="w-[250px] h-[250px] rounded-full mb-4"
+            />
+            <h2 className="text-2xl font-bold text-[#6a483c]">
+              Painless Waxing
+            </h2>
+            <p className="text-md text-[#6a483c] text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
