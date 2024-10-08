@@ -2,6 +2,7 @@ import React from "react";
 import heroimage from "../assets/heroimage.jpg";
 import legs from "../assets/legs.jpg";
 import legss from "../assets/legss.jpg"; // Import your treatment image
+import WhyChooseUs from "../components/WhyUs";
 
 const Home: React.FC = () => {
   return (
@@ -183,6 +184,7 @@ const Home: React.FC = () => {
           />
         </div>
       </div>
+      <WhyChooseUs />
     </div>
   );
 };
