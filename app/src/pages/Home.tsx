@@ -1,6 +1,9 @@
 import React from "react";
 import heroimage from "../assets/heroimage.jpg";
 import legs from "../assets/legs.jpg";
+import body from "../assets/body.png"; // Import your treatment image
+import dora from "../assets/dora.jpg";
+import fytyra from "../assets/fytyra.jpg";
 import legss from "../assets/legss.jpg"; // Import your treatment image
 import WhyChooseUs from "../components/WhyUs";
 
@@ -11,15 +14,15 @@ const Home: React.FC = () => {
       <div className="min-h-screen flex flex-col md:flex-row items-center justify-between">
         <div className="w-full md:w-1/2">
           <h1 className="text-5xl md:text-7xl font-md text-[#6a483c] mb-4">
-            Get The Smooth <br /> Look You Want
+            Merr Pamjen <br /> e Lëmuar që Dëshiron
           </h1>
           <p className="text-base md:text-lg text-gray-700 mb-4">
-            Discover our amazing services and solutions designed <br /> to help
-            you grow and succeed. <br /> We offer a wide range of options to
-            meet your needs.
+            Merrni pamjen e lëmuar që dëshironi me trajtimet tona <br />
+            efektive me laser. <br /> Rritni vetëbesimin tuaj me rezultate të
+            shkëlqyera!
           </p>
           <button className="bg-transparent border-2 border-[#6a483c] text-[#6a483c] py-2 px-6 w-[40%] md:w-[200px]">
-            Discover More
+            Zbuloni Më Shumë
           </button>
         </div>
 
@@ -48,12 +51,16 @@ const Home: React.FC = () => {
           />
         </div>
 
-        <div className="w-full md:w-1/2 mt-6 md:mt-0">
+        <div className="w-full md:w-1/2 mt-6 px-12 md:mt-0">
           <h2 className="text-4xl md:text-5xl font-bold text-[#6a483c] mb-4">
             Rreth Nesh
           </h2>
           <p className="text-base md:text-lg text-gray-700 mb-4">
-            Platforma jonë është e dedikuar për t'ju ofruar shërbimet dhe zgjidhjet më të mira që përputhen me qëllimet tuaja. Nga opsionet e personalizuara te ekspertiza profesionale, ne jemi këtu për t'ju ndihmuar në çdo hap të rrugës. Le ta bëjmë udhëtimin tuaj drejt suksesit më të lehtë dhe më të arritshëm.
+            Platforma jonë është e dedikuar për t'ju ofruar shërbimet dhe
+            zgjidhjet më të mira që përputhen me qëllimet tuaja. Nga opsionet e
+            personalizuara te ekspertiza profesionale, ne jemi këtu për t'ju
+            ndihmuar në çdo hap të rrugës. Le ta bëjmë udhëtimin tuaj drejt
+            suksesit më të lehtë dhe më të arritshëm.
           </p>
         </div>
       </div>
@@ -65,112 +72,75 @@ const Home: React.FC = () => {
             Depilim me Laser
           </h2>
           <p className="text-base md:text-lg text-gray-700 mb-4 text-left">
-            Our platform is dedicated to providing you with the finest services
-            and solutions that align with your goals. From personalized options
-            to professional expertise, we are here to help you every step of the
-            way. Let’s make your journey to success smoother and more
-            achievable.
+            Në Laser Beauty Sara, ne besojmë në fuqinë e teknologjisë së
+            përparuar për të nxjerrë në pah shkëlqimin tuaj natyral. Trajtimet
+            tona të avancuara me laser janë krijuar për të rinovuar,
+            rigjallëruar dhe freskuar lëkurën tuaj, duke e lënë të lëmuar,
+            rinore dhe rrezatuese. Qoftë që kërkoni heqjen e qimeve, rifreskimin
+            e lëkurës apo zgjidhje kundër plakjes, teknikët tanë të specializuar
+            sigurojnë saktësi me çdo impuls, duke ju dhënë vetëbesimin për të
+            shkëlqyer në bukurinë tuaj unike.
           </p>
 
-          {/* Treatment Cards */}
           <div className="grid grid-cols-3 gap-4 ">
-            {/* Card 1 */}
-            <div className="flex flex-col items-center p-2 bg-transparent shadow-md hover:shadow-lg transition-shadow border border-[#6a483c] duration-300 h-48">
+            <div className="flex flex-col items-center py-8 space-y-4 p-2 bg-transparent shadow-md hover:shadow-lg transition-shadow border border-[#6a483c] duration-300 h-48">
               <img
-                src={legss}
+                src={body}
                 alt="Face Waxing"
                 className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">
                 Komplet Trupi
               </h3>
-              <p className="text-gray-700 mb-2 text-center">
-                A brief description of Treatment 4.
-              </p>
-              <button className="bg-transparent text-[#6a483c] text-sm">
-                Learn More
-              </button>
             </div>
 
-            {/* Repeat the same structure for other cards */}
-            <div className="flex flex-col items-center p-2 bg-transparent shadow-md hover:shadow-lg transition-shadow border border-[#6a483c] duration-300 h-48">
+            <div className="flex flex-col items-center py-8 space-y-4 p-2 bg-transparent shadow-md hover:shadow-lg transition-shadow border border-[#6a483c] duration-300 h-48">
               <img
-                src={legss}
+                src={fytyra}
                 alt="Body Waxing"
                 className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">Fytyren</h3>
-              <p className="text-gray-700 mb-2 text-center">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              </p>
-              <button className="bg-transparent text-[#6a483c] text-sm">
-                Learn More
-              </button>
             </div>
 
-            <div className="flex flex-col items-center p-2  shadow-md hover:shadow-lg transition-shadow border bg-transparent border-[#6a483c] duration-300 h-48">
+            <div className="flex flex-col items-center p-2 py-8 space-y-4 shadow-md hover:shadow-lg transition-shadow border bg-transparent border-[#6a483c] duration-300 h-48">
               <img
-                src={legss}
+                src={dora}
                 alt="Facial Treatment"
                 className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">
                 Nen Sqetulla
               </h3>
-              <p className="text-gray-700 mb-2 text-center">
-                A brief description of Treatment 6.
-              </p>
-              <button className="bg-transparent text-[#6a483c] text-sm">
-                Learn More
-              </button>
             </div>
 
-            {/* Additional Cards */}
-            <div className="flex flex-col items-center p-2  shadow-md hover:shadow-lg transition-shadow border bg-transparent border-[#6a483c] duration-300 h-48">
+            <div className="flex flex-col items-center p-2 py-8 space-y-4  shadow-md hover:shadow-lg transition-shadow border bg-transparent border-[#6a483c] duration-300 h-48">
               <img
-                src={legss}
+                src={dora}
                 alt="Massage Therapy"
                 className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">Duart</h3>
-              <p className="text-gray-700 mb-2 text-center">
-                A brief description of Treatment 7.
-              </p>
-              <button className="bg-transparent text-[#6a483c] text-sm">
-                Learn More
-              </button>
             </div>
 
-            <div className="flex flex-col items-center p-2 bg-transparent shadow-md hover:shadow-lg transition-shadow border border-[#6a483c] duration-300 h-48">
+            <div className="flex flex-col items-center py-8 space-y-4 p-2 bg-transparent shadow-md hover:shadow-lg transition-shadow border border-[#6a483c] duration-300 h-48">
               <img
                 src={legss}
                 alt="Hair Treatment"
                 className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">Kembet</h3>
-              <p className="text-gray-700 mb-2 text-center">
-                A brief description of Treatment 8.
-              </p>
-              <button className="bg-transparent text-[#6a483c] text-sm">
-                Learn More
-              </button>
             </div>
 
-            <div className="flex flex-col items-center p-2 bg-transparent shadow-md hover:shadow-lg transition-shadow border border-[#6a483c]  duration-300 h-48">
+            <div className="flex flex-col items-center py-8 space-y-4 p-2 bg-transparent shadow-md hover:shadow-lg transition-shadow border border-[#6a483c]  duration-300 h-48">
               <img
-                src={legss}
+                src={body}
                 alt="Nail Care"
                 className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">
                 Gjenitale
               </h3>
-              <p className="text-gray-700 mb-2 text-center">
-                A brief description of Treatment 9.
-              </p>
-              <button className="bg-transparent text-[#6a483c] text-sm">
-                Learn More
-              </button>
             </div>
           </div>
         </div>
