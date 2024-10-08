@@ -1,10 +1,12 @@
 import React from "react";
 import heroimage from "../assets/heroimage.jpg";
 import legs from "../assets/legs.jpg";
-import legss from "../assets/legss.jpg";
 import body from "../assets/body.png"; // Import your treatment image
 import dora from "../assets/dora.jpg";
 import fytyra from "../assets/fytyra.jpg";
+import legss from "../assets/legss.jpg"; // Import your treatment image
+import WhyChooseUs from "../components/WhyUs";
+
 const Home: React.FC = () => {
   return (
     <div className="px-[8%] xl:px-[16%] py-6">
@@ -151,7 +153,7 @@ const Home: React.FC = () => {
           />
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center mt-32 mb-32"></div>
+      <WhyChooseUs />
     </div>
   );
 };
