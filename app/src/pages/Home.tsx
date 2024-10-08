@@ -49,14 +49,10 @@ const Home: React.FC = () => {
 
         <div className="w-full md:w-1/2 mt-6 md:mt-0">
           <h2 className="text-4xl md:text-5xl font-bold text-[#6a483c] mb-4">
-            About Us
+            Rreth Nesh
           </h2>
           <p className="text-base md:text-lg text-gray-700 mb-4">
-            Our platform is dedicated to providing you with the finest services
-            and solutions that align with your goals. From personalized options
-            to professional expertise, we are here to help you every step of the
-            way. Let’s make your journey to success smoother and more
-            achievable.
+            Platforma jonë është e dedikuar për t'ju ofruar shërbimet dhe zgjidhjet më të mira që përputhen me qëllimet tuaja. Nga opsionet e personalizuara te ekspertiza profesionale, ne jemi këtu për t'ju ndihmuar në çdo hap të rrugës. Le ta bëjmë udhëtimin tuaj drejt suksesit më të lehtë dhe më të arritshëm.
           </p>
         </div>
       </div>
