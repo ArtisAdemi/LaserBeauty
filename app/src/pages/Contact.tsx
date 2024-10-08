@@ -3,7 +3,7 @@ import removal from "../assets/removal.jpg";
 import location from "../assets/location.svg";
 import Swal from "sweetalert2";
 
-const Contact: React.FC = () => {
+const Kontakt: React.FC = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -181,4 +181,4 @@ const Contact: React.FC = () => {
   );
 };
 
-export default Contact;
+export default Kontakt;

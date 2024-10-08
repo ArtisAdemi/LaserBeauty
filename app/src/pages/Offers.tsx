@@ -5,7 +5,7 @@ import Body from "../components/Body";
 import Face from "../components/Face";
 import pricing from "../assets/pricing-image.jpg";
 
-const Offers: React.FC = () => {
+const Shërbimet: React.FC = () => {
   const [selectedTab, setSelectedTab] = useState(getInitialTab());
 
   function getInitialTab() {
@@ -76,4 +76,4 @@ const Offers: React.FC = () => {
   );
 };
 
-export default Offers;
+export default Shërbimet;
