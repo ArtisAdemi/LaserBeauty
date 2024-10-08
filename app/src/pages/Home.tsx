@@ -27,13 +27,13 @@ const Home: React.FC = () => {
           <img
             src={heroimage}
             alt="Home Image"
-            className="w-[90%] md:w-[600px] h-auto object-cover rounded-t-full"
+            className="w-[90%] md:w-[600px] h-auto object-cover rounded-t-full border-2 border-[#6a483c]"
           />
 
           <img
             src={legs}
             alt="Small Image"
-            className="w-[30%] md:w-[250px] h-auto object-cover absolute left-0 bottom-0 transform translate-x-[-5%] translate-y-[-15%]"
+            className="w-[30%] md:w-[250px] h-auto object-cover absolute left-0 bottom-0 border-2 border-[#6a483c] transform translate-x-[-5%] translate-y-[-15%]"
           />
         </div>
       </div>
@@ -44,7 +44,7 @@ const Home: React.FC = () => {
           <img
             src={legs}
             alt="About Us Image"
-            className="w-[90%] md:w-[600px] h-auto object-cover rounded-b-full"
+            className="w-[90%] md:w-[600px] h-auto object-cover rounded-b-full border-2 border-[#6a483c]"
           />
         </div>
 
@@ -79,7 +79,7 @@ const Home: React.FC = () => {
               <img
                 src={legss}
                 alt="Face Waxing"
-                className="w-16 h-16 object-contain rounded-md mb-2"
+                className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">
                 Komplet Trupi
@@ -97,7 +97,7 @@ const Home: React.FC = () => {
               <img
                 src={legss}
                 alt="Body Waxing"
-                className="w-16 h-16 object-contain rounded-md mb-2"
+                className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">Fytyren</h3>
               <p className="text-gray-700 mb-2 text-center">
@@ -112,7 +112,7 @@ const Home: React.FC = () => {
               <img
                 src={legss}
                 alt="Facial Treatment"
-                className="w-16 h-16 object-contain rounded-md mb-2"
+                className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">
                 Nen Sqetulla
@@ -130,7 +130,7 @@ const Home: React.FC = () => {
               <img
                 src={legss}
                 alt="Massage Therapy"
-                className="w-16 h-16 object-contain rounded-md mb-2"
+                className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">Duart</h3>
               <p className="text-gray-700 mb-2 text-center">
@@ -145,7 +145,7 @@ const Home: React.FC = () => {
               <img
                 src={legss}
                 alt="Hair Treatment"
-                className="w-16 h-16 object-contain rounded-md mb-2"
+                className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">Kembet</h3>
               <p className="text-gray-700 mb-2 text-center">
@@ -160,7 +160,7 @@ const Home: React.FC = () => {
               <img
                 src={legss}
                 alt="Nail Care"
-                className="w-16 h-16 object-contain rounded-md mb-2"
+                className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">
                 Gjenitale
@@ -176,11 +176,11 @@ const Home: React.FC = () => {
         </div>
 
         {/* Right Section: Image */}
-        <div className="w-[600px] flex justify-center items-center mt-6 md:mt-0">
+        <div className="xl:w-[600px] w-full flex justify-center items-center mt-6 md:mt-0">
           <img
             src={heroimage}
             alt="Treatment Image"
-            className="w-[60%] md:w-[400px] h-auto object-cover"
+            className="w-[60%] md:w-[400px] h-auto object-cover border-2 border-[#6a483c]"
           />
         </div>
       </div>

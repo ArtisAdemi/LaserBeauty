@@ -46,8 +46,8 @@ const Footer: React.FC = () => {
                     </div>
                 </div>
                 <div className="text-center text-[#9A7566] mt-8">
-                    <p>Waxing Salon Template Kit By Jegtheme.</p>
-                    <p>Copyright © 2022. All rights reserved.</p>
+                    <a href="https://influxo.vercel.app" className="text-[#9A7566] hover:text-gray-900">Inflxuo</a>
+                    <p>Copyright © {new Date().getFullYear()}. All rights reserved.</p>
                 </div>
             </div>
         </footer>
