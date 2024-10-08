@@ -44,7 +44,9 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="text-center text-[#9A7566] mt-12">
-          <p>Copyright © 2024 Influxo. All Rights Reserved.</p>
+          <a href="https://influxo.vercel.app" target="_blank">
+            Copyright © {new Date().getFullYear()} Influxo. All Rights Reserved.
+          </a>
         </div>
       </div>
     </footer>
