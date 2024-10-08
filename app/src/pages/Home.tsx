@@ -5,9 +5,9 @@ import legss from "../assets/legss.jpg"; // Import your treatment image
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <div className="px-[8%] xl:px-[16%] py-6">
       {/* Hero Section */}
-      <div className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-12">
+      <div className="min-h-screen flex flex-col md:flex-row items-center justify-between">
         <div className="w-full md:w-1/2">
           <h1 className="text-5xl md:text-7xl font-md text-[#6a483c] mb-4">
             Get The Smooth <br /> Look You Want
@@ -38,7 +38,7 @@ const Home: React.FC = () => {
       </div>
 
       {/* About Us Section */}
-      <div className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-12">
+      <div className="min-h-screen flex flex-col md:flex-row items-center justify-between">
         <div className="flex justify-center md:justify-end items-center space-x-4 md:space-x-16">
           <img
             src={legs}
@@ -62,7 +62,7 @@ const Home: React.FC = () => {
       </div>
 
       {/* Treatment Section */}
-      <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-12 my-12">
+      <div className="flex flex-col md:flex-row items-center justify-between my-12">
         <div className="w-full md:w-1/2 flex flex-col space-y-6">
           <h2 className="text-4xl md:text-5xl font-bold text-[#6a483c] mb-4">
             Depilim me Laser
