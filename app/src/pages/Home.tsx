@@ -68,16 +68,16 @@ const Home: React.FC = () => {
             Depilim me Laser
           </h2>
           <p className="text-base md:text-lg text-gray-700 mb-4 text-left">
-            Our platform is dedicated to providing you with the finest services
-            and solutions that align with your goals. From personalized options
-            to professional expertise, we are here to help you every step of the
-            way. Let’s make your journey to success smoother and more
-            achievable.
+            At Laser Beauty Sara, we believe in harnessing the power of
+            cutting-edge technology to bring out your natural glow. Our advanced
+            laser treatments are designed to rejuvenate, revitalize, and refresh
+            your skin, leaving it smooth, youthful, and radiant. Whether you're
+            seeking hair removal, skin resurfacing, or anti-aging solutions, our
+            expert technicians ensure precision with every pulse, giving you the
+            confidence to shine in your unique beauty.
           </p>
 
-          {/* Treatment Cards */}
           <div className="grid grid-cols-3 gap-4 ">
-            {/* Card 1 */}
             <div className="flex flex-col items-center p-2 bg-transparent shadow-md hover:shadow-lg transition-shadow border border-[#6a483c] duration-300 h-48">
               <img
                 src={legss}
@@ -95,7 +95,6 @@ const Home: React.FC = () => {
               </button>
             </div>
 
-            {/* Repeat the same structure for other cards */}
             <div className="flex flex-col items-center p-2 bg-transparent shadow-md hover:shadow-lg transition-shadow border border-[#6a483c] duration-300 h-48">
               <img
                 src={legss}
