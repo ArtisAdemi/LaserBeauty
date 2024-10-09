@@ -8,9 +8,9 @@ import Kontakt from "./pages/Contact";
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <div>
         <Router>
+          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/sherbimet" element={<Shërbimet />} />
