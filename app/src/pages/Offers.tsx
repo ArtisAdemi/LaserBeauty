@@ -59,7 +59,7 @@ const Shërbimet: React.FC = () => {
                 <p className="text-[#6a483c] font-semibold text-2xl">€40</p>
               </div>
               <div>
-                <h1 className="text-[#885D4D] mt-3">Genital (1 Seancë)</h1>
+                <h1 className="text-[#885D4D] mt-3">Bikini (1 Seancë)</h1>
               </div>
             </div>
             <div className="py-4 xl:border-2 xl:border-[#6a483c] xl:border-t-0 xl:border-l-0 xl:border-r-0 ">
