@@ -98,7 +98,7 @@ const Home: React.FC = () => {
               <img
                 src={body}
                 alt="Face Waxing"
-                className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
+                className="w-16 h-16 object-contain rounded-md mb-2"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">
                 Komplet Trupi
@@ -109,7 +109,7 @@ const Home: React.FC = () => {
               <img
                 src={fytyra}
                 alt="Body Waxing"
-                className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
+                className="w-16 h-16 object-contain rounded-md mb-2"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">Fytyren</h3>
             </div>
@@ -118,7 +118,7 @@ const Home: React.FC = () => {
               <img
                 src={dora}
                 alt="Facial Treatment"
-                className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
+                className="w-16 h-16 object-contain rounded-md mb-2"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">
                 Nen Sqetulla
@@ -129,7 +129,7 @@ const Home: React.FC = () => {
               <img
                 src={dora}
                 alt="Massage Therapy"
-                className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
+                className="w-16 h-16 object-contain rounded-md mb-2"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">Duart</h3>
             </div>
@@ -138,7 +138,7 @@ const Home: React.FC = () => {
               <img
                 src={legss}
                 alt="Hair Treatment"
-                className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
+                className="w-16 h-16 object-contain rounded-md mb-2"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">Kembet</h3>
             </div>
@@ -147,7 +147,7 @@ const Home: React.FC = () => {
               <img
                 src={body}
                 alt="Nail Care"
-                className="w-16 h-16 object-contain rounded-md mb-2 border-2 border-[#6a483c]"
+                className="w-16 h-16 object-contain rounded-md mb-2"
               />
               <h3 className="text-lg font-bold text-[#6a483c] mb-1">
                 Gjenitale
