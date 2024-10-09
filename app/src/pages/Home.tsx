@@ -6,8 +6,16 @@ import dora from "../assets/dora.jpg";
 import fytyra from "../assets/fytyra.jpg";
 import legss from "../assets/legss.jpg"; // Import your treatment image
 import WhyChooseUs from "../components/WhyUs";
+import { useNavigate } from "react-router-dom";
+import image1 from "../assets/image1.jpg";
+import image2 from "../assets/image2.jpg";
 
 const Home: React.FC = () => {
+  const navigate = useNavigate();
+
+  const redirect = (path: string) => {
+    navigate(path);
+  };
   return (
     <div className="px-[8%] xl:px-[16%] py-6">
       {/* Hero Section */}
@@ -21,8 +29,11 @@ const Home: React.FC = () => {
             efektive me laser. <br /> Rritni vetëbesimin tuaj me rezultate të
             shkëlqyera!
           </p>
-          <button className="bg-transparent border-2 border-[#6a483c] text-[#6a483c] py-2 px-6 w-[40%] md:w-[200px]">
-            Zbuloni Më Shumë
+          <button
+            className="bg-transparent border-2 border-[#6a483c] text-[#6a483c] py-2 px-6 w-[40%] md:w-[200px]"
+            onClick={() => redirect("sherbimet")}
+          >
+            Ofertat
           </button>
         </div>
 
@@ -45,9 +56,9 @@ const Home: React.FC = () => {
       <div className="min-h-screen flex flex-col md:flex-row items-center justify-between">
         <div className="flex justify-center md:justify-end items-center space-x-4 md:space-x-16">
           <img
-            src={legs}
+            src={image1}
             alt="About Us Image"
-            className="w-[90%] md:w-[600px] h-auto object-cover rounded-b-full border-2 border-[#6a483c]"
+            className="w-[90%]  md:w-[600px]  object-cover rounded-b-full border-2 border-[#6a483c]"
           />
         </div>
 
@@ -148,9 +159,9 @@ const Home: React.FC = () => {
         {/* Right Section: Image */}
         <div className="xl:w-[600px] w-full flex justify-center items-center mt-6 md:mt-0">
           <img
-            src={heroimage}
+            src={image2}
             alt="Treatment Image"
-            className="w-[60%] md:w-[400px] h-auto object-cover border-2 border-[#6a483c]"
+            className="xl:w-[80%] md:w-[400px] h-auto object-cover border-2 border-[#6a483c]"
           />
         </div>
       </div>
