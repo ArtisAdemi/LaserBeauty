@@ -3,7 +3,6 @@ import React from "react";
 // import hygienicPlace from "../assets/hygienicPlace.jpg";
 // import naturalIngredient from "../assets/naturalIngredient.jpg";
 // import painlessWaxing from "../assets/painlessWaxing.jpg";
-import legs from "../assets/legs.jpg";
 import image3 from "../assets/image3.jpg";
 import image4 from "../assets/image4.jpg";
 import image5 from "../assets/image5.jpg";
