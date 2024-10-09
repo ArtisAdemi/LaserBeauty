@@ -86,7 +86,7 @@ const Home: React.FC = () => {
 
             <div className="flex flex-col items-center py-8 space-y-4 p-2 bg-transparent shadow-md hover:shadow-lg transition-shadow border border-[#6a483c]  duration-300 h-48">
               <img src={body} alt="Nail Care" className="w-16 h-16 object-contain rounded-md mb-2" />
-              <h3 className="text-lg font-bold text-[#6a483c] mb-1">Gjenitale</h3>
+              <h3 className="text-lg font-bold text-[#6a483c] mb-1">Bikini</h3>
             </div>
           </div>
         </div>
