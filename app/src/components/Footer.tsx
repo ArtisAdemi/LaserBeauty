@@ -14,10 +14,16 @@ const Footer: React.FC = () => {
             />
 
             <div className="flex space-x-4 mt-4">
-              <a href="#" className="text-[#9A7566] hover:text-gray-900">
+              <a
+                href="https://www.facebook.com/profile.php?id=100093594040815"
+                className="text-[#9A7566] hover:text-gray-900"
+              >
                 Facebook
               </a>
-              <a href="#" className="text-[#9A7566] hover:text-gray-900">
+              <a
+                href="https://www.instagram.com/laserbeautysara/"
+                className="text-[#9A7566] hover:text-gray-900"
+              >
                 Instagram
               </a>
               <a href="#" className="text-[#9A7566] hover:text-gray-900">
