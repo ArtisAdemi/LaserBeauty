@@ -22,11 +22,11 @@ const Home: React.FC = () => {
       <div className="min-h-screen flex flex-col xl:flex-row items-center justify-between">
         <div className="w-full xl:w-1/2">
           <h1 className="text-5xl md:text-7xl font-md text-[#6a483c] mb-4">
-            Merr Pamjen <br /> e Lëmuar që Dëshiron
+            Merr Pamjen <br className="hidden md:block" /> e Lëmuar që Dëshiron
           </h1>
           <p className="text-base xl:text-lg text-gray-700 mb-4">
-            Merrni pamjen e lëmuar që dëshironi me trajtimet tona <br />
-            efektive me laser. <br /> Rritni vetëbesimin tuaj me rezultate të shkëlqyera!
+            Merrni pamjen e lëmuar që dëshironi me trajtimet tona
+            efektive me laser. <br className="hidden md:block" /> Rritni vetëbesimin tuaj me rezultate të shkëlqyera!
           </p>
           <button className="bg-transparent border-2 border-[#6a483c] text-[#6a483c] py-2 px-6 w-[40%] md:w-[200px]" onClick={() => redirect("sherbimet")}>
             Ofertat
@@ -43,7 +43,7 @@ const Home: React.FC = () => {
       {/* About Us Section */}
       <div className="py-12 mt-12 xl:mt-0 flex flex-col xl:flex-row items-center xl:justify-between">
         <div className="flex justify-center md:justify-end items-center space-x-4 md:space-x-16">
-          <img src={image1} alt="About Us Image" className="xl:w-[90%] md:w-[600px] h-auto object-cover rounded-b-full border-2 border-[#6a483c]" />
+          <img src={image1} alt="About Us Image" className="md:w-[600px] h-auto object-cover rounded-b-full border-2 border-[#6a483c]" />
         </div>
 
         <div className="w-full xl:w-1/2 mt-12 xl:px-12 xl:mt-0">
