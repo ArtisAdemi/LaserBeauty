@@ -22,10 +22,10 @@ const Home: React.FC = () => {
       <div className="min-h-screen flex flex-col xl:flex-row items-center justify-between">
         <div className="w-full xl:w-1/2">
           <h1 className="text-5xl md:text-7xl font-md text-[#6a483c] mb-4">
-            Merr Pamjen <br className="hidden md:block" /> e Lëmuar që Dëshiron
+            Kujdes i sigurtë <br className="hidden md:block" />për lëkurën tuaj
           </h1>
           <p className="text-base xl:text-lg text-gray-700 mb-4">
-            Merrni pamjen e lëmuar që dëshironi me trajtimet tona efektive me
+            Merrni pamjen që dëshironi me trajtimet tona efektive me
             laser. <br className="hidden md:block" /> Rritni vetëbesimin tuaj me
             rezultate të shkëlqyera!
           </p>
