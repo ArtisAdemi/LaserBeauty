@@ -1,7 +1,7 @@
 import React from "react";
 // import pricing from "../assets/pricing-image.jpg";
 import { useNavigate } from "react-router-dom";
-import LaserHairRemoval from "../assets/LaserHairRemoval.jpg"
+import cmimet from "../assets/cmimet.jpg"
 
 const Shërbimet: React.FC = () => {
   const navigate = useNavigate();
@@ -13,7 +13,7 @@ const Shërbimet: React.FC = () => {
     <div>
       <div className="h-[300px] relative border-b-2 border-[#9A7566]">
         <img
-          src={LaserHairRemoval}
+          src={cmimet}
           alt="Contact"
           className="w-full opacity-70 h-full object-cover brightness-50 border"
         />
