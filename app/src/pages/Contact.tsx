@@ -7,7 +7,7 @@ const Kontakt: React.FC = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    phone: "",
+    phone: "+383",
     html: "",
   });
 
