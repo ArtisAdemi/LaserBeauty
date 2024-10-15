@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
             Faqja kryesore
           </a>
           <a href="/sherbimet" className="text-[#9A7566] font-bold hover:text-[#a55839]">
-            Shërbimet
+            Çmimet
           </a>
         </div>
         <div className="text-2xl font-bold text-[#9A7566] xl:w-1/3 flex justify-center">
@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
           </h2>
           <h2 className={`cursor-pointer text-[#9A7566] hover:text-[#a55839] hover:duration-300 font-medium text-lg duration-300 ${isActive("/sherbimet") ? "font-bold text-[#a55839] underline" : "text-[#9A7566]"}`} onClick={() => redirect("/sherbimet")}>
             {isActive("/sherbimet")}
-            Shërbimet
+            Çmimet
           </h2>
           <h2 className={`cursor-pointer text-[#9A7566] hover:text-[#a55839] hover:duration-300 font-medium text-lg duration-300 ${isActive("/kontakt") ? "font-bold text-[#a55839] underline" : "text-[#9A7566]"}`} onClick={() => redirect("/kontakt")}>
             {isActive("/kontakt")}

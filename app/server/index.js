@@ -17,14 +17,14 @@ const sendMail = async (req, res) => {
     let transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user: "influxoks@gmail.com",
+            user: "mirjetakurti224@gmail.com",
             pass: process.env.GMAIL_APP_PASSWORD,
         },
     });
 
     let mailOptions = {
-        from: "influxoks@gmail.com",
-        to: "influxoks@gmail.com",
+        from: "mirjetakurti224@gmail.com",
+        to: "mirjetakurti224@gmail.com",
         subject: `New Contact Form Submission from ${name}`,
         html: `
             <h1>Contact Form Submission</h1>

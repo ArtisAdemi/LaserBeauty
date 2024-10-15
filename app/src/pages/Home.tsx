@@ -33,7 +33,7 @@ const Home: React.FC = () => {
             className="bg-transparent border-2 border-[#6a483c] text-[#6a483c] py-2 px-6 w-[40%] md:w-[200px]"
             onClick={() => redirect("sherbimet")}
           >
-            Ofertat
+            Çmimet
           </button>
         </div>
 
