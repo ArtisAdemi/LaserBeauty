@@ -3,10 +3,11 @@ import React from "react";
 // import hygienicPlace from "../assets/hygienicPlace.jpg";
 // import naturalIngredient from "../assets/naturalIngredient.jpg";
 // import painlessWaxing from "../assets/painlessWaxing.jpg";
-import image3 from "../assets/image3.jpg";
+// import image3 from "../assets/image3.jpg";
 import image4 from "../assets/image4.jpg";
 import image5 from "../assets/image5.jpg";
 import image6 from "../assets/image6.jpg";
+import LaserHairRemoval from "../assets/LaserHairRemoval.jpg";
 
 const WhyChooseUs: React.FC = () => {
   return (
@@ -17,7 +18,7 @@ const WhyChooseUs: React.FC = () => {
       </div>
       <div className="flex flex-col lg:flex-row justify-center  items-center space-x-0 xl:space-x-32">
         <div className="flex flex-col xl:items-center mb-8 w-full">
-          <img src={image3} alt="Professional Team" className="w-full lg:w-48 h-ful lg:h-48 object-cover rounded-tl-[50%] mb-4 border-2 border-[#6a483c]" />
+          <img src={LaserHairRemoval} alt="Professional Team" className="w-full lg:w-48 h-ful lg:h-48 object-cover rounded-tl-[50%] mb-4 border-2 border-[#6a483c]" />
           <div className="flex flex-col items-center w-full lg:w-48 lg:h-48">
             <h3 className="text-xl font-semibold text-center text-[#6a483c]">Ekipi Profesional</h3>
             <p className="text-gray-700 text-center">Ekipi ynë përbëhet nga profesionistë të trajnuar në ofrimin e trajtimeve të sigurta dhe efektive me lazer.</p>
