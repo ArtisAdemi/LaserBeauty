@@ -98,7 +98,7 @@ const Kontakt: React.FC = () => {
           className="w-full opacity-70 h-full object-cover"
         />
         <div className="absolute top-1/2 inset-x-0 text-center transform -translate-y-1/2">
-          <h1 className="text-5xl text-[#9A7566]">Kontakti</h1>{" "}
+          <h1 className="text-5xl font-semibold text-[#9A7566]">Kontakti</h1>{" "}
         </div>
       </div>
 
@@ -111,16 +111,26 @@ const Kontakt: React.FC = () => {
           marrë një konsultë profesionale. Ne jemi këtu për të ndihmuar në çdo
           hap të rrugës drejt bukurisë suaj ideale.
         </p>
-        <div className="flex flex-row text-center justify-center space-x-40 mt-4 font-medium text-[#9A7566]">
+        <div className="px-[8%] xl:px-[16%] py-8">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d736.9581577362538!2d21.16439228403487!3d42.367406043957665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13547fd8d3db3571%3A0x65d245aab5c54821!2sLaser%20Beauty%20Sara!5e0!3m2!1sen!2s!4v1729005882128!5m2!1sen!2s"
+            width="100%"
+            height="450"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="rounded-md border-2 border-[#9A7566]"
+          ></iframe>
+        </div>
+        <div className="flex flex-row text-center justify-center space-x-40 mt-4 font-medium text-[#9A7566] px-[8%] xl:px-[16%]">
           <div className="flex items-center space-x-2">
-            <p className="text-[#9A7566]">Rr. Vellezrit Xhakli</p>
+            <p className="text-[#9A7566]">Rr. Vellezrit Xhakli Nr.11</p>
           </div>
           <p className="text-[#9A7566]">Tel: (+383) 48 375 704</p>
         </div>
       </div>
 
-      <div className="flex justify-center mb-12">
-        <form className="w-full max-w-3xl" onSubmit={handleSubmit}>
+      <div className="flex justify-center mb-12  px-[8%] xl:px-[16%]">
+        <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-6">
             <input
               type="text"

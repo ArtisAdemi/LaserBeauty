@@ -1,6 +1,7 @@
 import React from "react";
-import pricing from "../assets/pricing-image.jpg";
+// import pricing from "../assets/pricing-image.jpg";
 import { useNavigate } from "react-router-dom";
+import LaserHairRemoval from "../assets/LaserHairRemoval.jpg"
 
 const Shërbimet: React.FC = () => {
   const navigate = useNavigate();
@@ -10,15 +11,15 @@ const Shërbimet: React.FC = () => {
   };
   return (
     <div>
-      <div className="h-[300px] relative">
+      <div className="h-[300px] relative border-b-2 border-[#9A7566]">
         <img
-          src={pricing}
+          src={LaserHairRemoval}
           alt="Contact"
-          className="w-full opacity-70 h-full object-cover"
+          className="w-full opacity-70 h-full object-cover brightness-50 border"
         />
 
         <div className="absolute top-1/2 inset-x-0 text-center transform -translate-y-1/2">
-          <h1 className="text-5xl text-[#6a483c]">Ofertat</h1>
+          <h1 className="text-5xl font-semibold text-[#6a483c]">Çmimet</h1>
         </div>
       </div>
 
@@ -54,7 +55,7 @@ const Shërbimet: React.FC = () => {
                 <h1 className="text-[#6a483c] font-semibold text-2xl">
                   Depilim me Laser
                 </h1>
-                <p className="text-[#6a483c] font-semibold text-2xl">€40</p>
+                <p className="text-[#6a483c] font-semibold text-2xl">€30</p>
               </div>
               <div>
                 <h1 className="text-[#885D4D] mt-3">Nënsqetulla (1 Seancë)</h1>

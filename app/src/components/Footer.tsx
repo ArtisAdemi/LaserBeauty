@@ -28,6 +28,13 @@ const Footer: React.FC = () => {
               >
                 Instagram
               </a>
+              <a
+                href="https://www.tiktok.com/@saralaserbeauty"
+                target="_blank"
+                className="text-[#9A7566] hover:text-gray-900"
+              >
+                Tiktok
+              </a>
             </div>
           </div>
           {/* Support Links */}
@@ -35,7 +42,7 @@ const Footer: React.FC = () => {
           {/* Contact Information */}
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-lg font-bold text-[#9A7566] mb-2">Kontakti</h3>
-            <p className="text-[#9A7566]">Rr. Vellezrit Xhakli</p>
+            <p className="text-[#9A7566]">Rr. Vellezrit Xhakli Nr.11</p>
 
             <p className="text-[#9A7566]">Tel: (+383) 48 375 704</p>
           </div>
